@@ -1,0 +1,24 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+__ds18b20_scratch_pad                                             0080h        9
+minutes                                                           0089h        2
+OutDigit                                                          008Bh        2
+numbers                                                           008Dh       10
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+g_iTempSet                                                        0000h        2
+g_iTimepMotor                                                     0002h        2
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+temp                                                              R2,R3        2
+iStartMotor                                                       R4,R5        2
+iMotorActions                                                     R6,R7        2
+i                                                                 R9           1
+temp2                                                             R10,R11      2
+milisec100                                                        R12,R13      2
+g_eType                                                           R8           1
